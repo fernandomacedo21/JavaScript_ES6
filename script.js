@@ -1,4 +1,46 @@
 
+//funções short range (encurtando a função
+//omitindo a palavra function,substituindo por parênteses
+var obj = {
+	sum(a, b){
+		return a + b;
+	}
+};
+console.log(obj.sum(1,5));
+
+
+/*
+//funções short range
+var obj = {
+	sum: function sum(a, b){
+		return a + b;
+	}
+};
+console.log(obj.sum(1,5));
+
+*/
+
+//Utilizando funções para construir métodos
+
+/*function method1(){
+	console.log('method called');
+}
+
+var obj = {
+	method1
+};
+
+obj.method1();
+
+var prop1 = 'Digital Innovation One';
+
+var obj = {
+	prop1
+};
+console.log(obj);
+*/
+
+/*
 //lazy evaluation
 function randomNumber(){
 	console.log('Generating a random number...');
@@ -10,7 +52,7 @@ function multiply(a, b = randomNumber()){
 }
 console.log(multiply(5));
 console.log(multiply(5));
-
+*/
 
 /*
 //Atribuições de maneira enxuta
